@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>JARVIS EDU</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #0f172a, #1e3a8a);
+        }
+
+        .hero {
+            max-width: 900px;
+        }
+
+        .robot {
+            font-size: 90px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 60px;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 24px;
+            color: #bfdbfe;
+            margin-bottom: 30px;
+        }
+
+        .description {
+            font-size: 18px;
+            color: #e2e8f0;
+            margin-bottom: 35px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 28px;
+            background: #2563eb;
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #1d4ed8;
+        }
+
+        section {
+            padding: 70px 20px;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+        }
+
+        .card-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 15px;
+            border: 1px solid #334155;
+        }
+
+        .card h3 {
+            color: #60a5fa;
+            margin-bottom: 15px;
+        }
+
+        .card p,
+        .card li {
+            color: #cbd5e1;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .author {
+            text-align: center;
+            background: #020617;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            background: #020617;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 42px;
+            }
+
+            .subtitle {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="hero">
+
+        <div class="robot">🤖</div>
+
+        <h1>JARVIS EDU</h1>
+
+        <div class="subtitle">
+            Agente Educativo Inteligente
+        </div>
+
+        <p class="description">
+            Un asistente educativo basado en Inteligencia Artificial
+            diseñado para acompañar al estudiante durante su proceso
+            de aprendizaje.
+        </p>
+
+        <a href="#proyecto" class="button">
+            Conocer el proyecto
+        </a>
+
+    </div>
+</header>
+
+
+<section id="proyecto">
+
+    <div class="container">
+
+        <h2>Sobre el proyecto</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>🎯 Objetivo</h3>
+
+                <p>
+                    Desarrollar un agente educativo inteligente capaz
+                    de interactuar con los estudiantes mediante texto
+                    y voz, proporcionando explicaciones personalizadas,
+                    resolución guiada de problemas y apoyo durante
+                    el aprendizaje.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h3>🧠 Inteligencia Artificial</h3>
+
+                <ul>
+                    <li>Google Gemini</li>
+                    <li>ChatGPT / OpenAI</li>
+                </ul>
+            </div>
+
+
+            <div class="card">
+                <h3>💻 Tecnologías</h3>
+
+                <ul>
+                    <li>Python</li>
+                    <li>SpeechRecognition</li>
+                    <li>PyAudio</li>
+                    <li>pyttsx3</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section>
+
+    <div class="container">
+
+        <h2>¿Qué puede hacer JARVIS EDU?</h2>
+
+        <div class="card-container">
+
+            <div class="card">
+                <h3>🎙️ Interacción por voz</h3>
+
+                <p>
+                    Permite al estudiante realizar preguntas
+                    mediante el micrófono.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h3>📚 Aprendizaje</h3>
+
+                <p>
+                    Proporciona explicaciones claras y adaptadas
+                    al nivel del estudiante.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h3>➗ Matemática</h3>
+
+                <p>
+                    Puede explicar conceptos y resolver problemas
+                    matemáticos paso a paso.
+                </p>
+            </div>
+
+
+            <div class="card">
+                <h3>💬 Conversación</h3>
+
+                <p>
+                    Mantiene una conversación natural y contextual
+                    con el estudiante.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="author">
+
+    <div class="container">
+
+        <h2>Autor</h2>
+
+        <p>
+            <strong>Jhoel CCanto Huatarongo</strong>
+        </p>
+
+        <p>
+            Facultad de Ciencias de la Educación<br>
+            Universidad Nacional de Huancavelica
+        </p>
+
+    </div>
+
+</section>
+
+
+<footer>
+
+    JARVIS EDU © 2026<br>
+    Proyecto educativo con Inteligencia Artificial
+
+</footer>
+
+</body>
+</html>
